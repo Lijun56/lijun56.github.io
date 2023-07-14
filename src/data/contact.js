@@ -1,43 +1,33 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons/faFacebookF';
+import { faBilibili } from '@fortawesome/free-brands-svg-icons/faBilibili';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
-import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
+// import { faAngellist } from '@fortawesome/free-brands-svg-icons/faAngellist';
+// import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 // See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
 // to add other icons.
 
 const data = [
   {
-    link: 'https://github.com/mldangelo',
+    link: 'https://github.com/lijun56',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://facebook.com/d',
-    label: 'Facebook',
-    icon: faFacebookF,
-  },
-  {
-    link: 'https://www.instagram.com/dangelosaurus/',
-    label: 'Instagram',
-    icon: faInstagram,
-  },
-  {
-    link: 'https://www.linkedin.com/in/michaelldangelo',
+    link: 'https://www.linkedin.com/in/lijun-legend-zhu/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'https://angel.co/michael-d-angelo',
-    label: 'Angel List',
-    icon: faAngellist,
+    link: 'https://space.bilibili.com/621731855',
+    label: 'Bilibili',
+    icon: faBilibili,
   },
   {
-    link: 'https://twitter.com/dangelosaurus',
-    label: 'Twitter',
-    icon: faTwitter,
+    link: 'https://www.instagram.com/real_lijun_zhu/',
+    label: 'Instagram',
+    icon: faInstagram,
   },
   {
     link: 'mailto:zhu944@purdue.edu',

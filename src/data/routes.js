@@ -17,6 +17,14 @@ const routes = [
     path: '/projects',
   },
   {
+    label: 'Research',
+    path: '/Research',
+  },
+  {
+    label: 'Gallery',
+    path: '/gallery',
+  },
+  {
     label: 'Stats',
     path: '/stats',
   },
@@ -24,6 +32,7 @@ const routes = [
     label: 'Contact',
     path: '/contact',
   },
+
 ];
 
 export default routes;
