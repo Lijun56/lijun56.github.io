@@ -19,7 +19,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Lijun, a software engineer and amateur bodybuilding athlete. I graduated from <a href="https://purdue.edu/">Purdue University</a>
+      <p>Hi, I&apos;m Lijun, a software engineer and amateur bodybuilding athlete. I graduated from <a href="https://purdue.edu/">Purdue University </a>
         with a degree in Computer Engineering. I am passionate about software development,
         specializing in VR application development and large-scale database management.
       </p>
