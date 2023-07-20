@@ -1,6 +1,6 @@
 const data = [
   {
-    image: '/images/gallery/ChicagoTrip.jpg',
+    image: '/images/gallery/ChicagoTrip.PNG',
     caption: 'By the michigen lake',
   },
 

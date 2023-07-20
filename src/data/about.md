@@ -78,7 +78,7 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - enabling a brighter future.
 - doing better.
 - you not checking the commit history for earlier drafts of this file.
-
+<!-- 
 # Websites from people I admire
 
 - [Alex Peysakhovich](http://alexpeys.github.io/)
@@ -94,6 +94,4 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - [Noah Trueblood](http://notrueblood.com/)
 - [Ruoxi Wang](http://ruoxiw.com/)
 - [Tom Sachs](https://www.tomsachs.org/)
-- [Will Holley](https://willholley.com)
-
-If we are friends and you feel like you belong on this list, you're probably right. Submit a PR, or ask me and I'll add you.
+- [Will Holley](https://willholley.com) -->

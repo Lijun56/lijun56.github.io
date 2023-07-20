@@ -15,6 +15,20 @@ const data = [
       + ' and buy other NFTs available in the market'
     ,
   },
+  {
+    title: 'GPT_School',
+    subtitle: 'a Virtual Reality (VR) multiplayer environment that allows users to study and interact in a virtual school',
+    link: 'https://github.com/Lijun56/GPT_School',
+    image: '/images/projects/roleplay.png',
+    date: '2023-7-1',
+    desc:
+      ' Welcome to the GPT_School. This project aims to revolutionize online learning'
+      + ' by providing a Virtual Reality (VR) multiplayer environment that allows users'
+      + ' to study and interact in a virtual school. With extensive variety of scenes like'
+      + ' playgrounds and outdoor spaces, users can fully immerse themselves into the learning'
+      + ' experience.'
+    ,
+  },
 
 ];
 

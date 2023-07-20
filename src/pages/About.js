@@ -8,7 +8,7 @@ const About = () => {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    import('../data/about.md')
+    import('../data/blank.md')
       .then((res) => {
         fetch(res.default)
           .then((r) => r.text())
