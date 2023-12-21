@@ -8,8 +8,6 @@ import {
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
-const { PUBLIC_URL } = process.env;
-
 // Every route - we lazy load so that each page can be chunked
 // NOTE that some of these chunks are very small. We should optimize
 // which pages are lazy loaded in the future.
@@ -27,7 +25,6 @@ const FitnessRedirect = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Redirect to the external URL
     window.location.href = 'https://complex-ladybug-21b.notion.site/Lijun-s-Fitness-Notes-c1bc5eb530624ceb912dbbcdca8776d2';
   }, [navigate]);
 
@@ -43,6 +40,7 @@ const App = () => (
         <Route path="/stats" element={<Stats />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/publication" element={<Publication />} />
         <Route path="/fitness" element={<FitnessRedirect />} />
