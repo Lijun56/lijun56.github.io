@@ -38,7 +38,7 @@ const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
       <Routes>
-        <Route path='/' element={<Index />} />
+        <Route path="/" element={<Index />} />
         {/* <Route path="/about" element={<About />} /> */}
         <Route path="/projects" element={<Projects />} />
         <Route path="/stats" element={<Stats />} />
@@ -47,7 +47,7 @@ const App = () => (
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/publication" element={<Publication />} />
         <Route path="/fitness" element={<FitnessRedirect />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
   </BrowserRouter>
