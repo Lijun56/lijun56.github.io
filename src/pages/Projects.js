@@ -32,30 +32,37 @@ const Projects = () => {
   };
 
   return (
-    <Main
-      title="Projects"
-      description="Learn about Lijun Zhu's projects."
-    >
+    <Main title="Projects" description="Learn about Lijun Zhu's projects.">
       <article className="post" id="projects">
         <header>
           <div className="title">
-            <h2><Link to="/projects">Projects</Link></h2>
+            <h2>
+              <Link to="/projects">Projects</Link>
+            </h2>
             {/* <p>A selection of projects that I&apos;m not too ashamed of</p> */}
             <div style={containerStyle}>
               {categories.map((cat) => (
-                <button type="button" key={cat} style={buttonStyle} onClick={() => filterByCategory(cat)}>
+                <button
+                  type="button"
+                  key={cat}
+                  style={buttonStyle}
+                  onClick={() => filterByCategory(cat)}
+                >
                   {cat}
                 </button>
               ))}
             </div>
           </div>
         </header>
-        {data.filter((project) => currentCategory === 'All' || project.category.includes(currentCategory)).map((project) => (
-          <Cell
-            data={project}
-            key={project.title}
-          />
-        ))}
+        {data
+          .filter(
+            (project) =>
+              currentCategory === 'All' ||
+              project.category.includes(currentCategory),
+          )
+          .map((project) => (
+            <Cell data={project} key={project.title} />
+          ))}
       </article>
     </Main>
   );

@@ -9,7 +9,6 @@ const data = [
     label: 'Hometown',
     value: 'Shanghai',
     link: 'https://en.wikipedia.org/wiki/Shanghai',
-
   },
 
   {

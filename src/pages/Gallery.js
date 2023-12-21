@@ -6,10 +6,7 @@ import Photo from '../components/Gallery/photo';
 import data from '../data/photos';
 
 const Gallery = () => (
-  <Main
-    title="Gallery"
-    description="Some of my favorite photos"
-  >
+  <Main title="Gallery" description="Some of my favorite photos">
     <article className="post" id="gallery">
       <header>
         <div className="title">

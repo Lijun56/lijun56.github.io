@@ -1,5 +1,4 @@
 const degrees = [
-
   {
     school: 'Purdue University',
     degree: 'B.S. Computer Engineering',

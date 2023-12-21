@@ -28,8 +28,7 @@ const data = [
     key: 'countries',
     label: 'Countries visited',
     value: 23,
-    link:
-      'https://www.google.com/maps/d/embed?mid=17C9AmZ2VdjSymWD1cDD9jRbra20&hl=en&ehbc=2E312F',
+    link: 'https://www.google.com/maps/d/embed?mid=17C9AmZ2VdjSymWD1cDD9jRbra20&hl=en&ehbc=2E312F',
   },
   {
     label: 'Hometown',

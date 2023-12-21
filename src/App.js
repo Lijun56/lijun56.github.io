@@ -1,10 +1,5 @@
 import React, { Suspense, lazy, useEffect } from 'react';
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  useNavigate,
-} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
@@ -25,7 +20,8 @@ const Publication = lazy(() => import('./pages/Research'));
 const FitnessRedirect = () => {
   const navigate = useNavigate();
   useEffect(() => {
-    window.location.href = 'https://complex-ladybug-21b.notion.site/Lijun-s-Fitness-Notes-c1bc5eb530624ceb912dbbcdca8776d2';
+    window.location.href =
+      'https://complex-ladybug-21b.notion.site/Lijun-s-Fitness-Notes-c1bc5eb530624ceb912dbbcdca8776d2';
   }, [navigate]);
   return null;
 };

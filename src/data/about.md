@@ -1,4 +1,3 @@
-
 # Intro
 
 I am the VP of Engineering at Smile Identity, where I work on tools that have helped over 60,000,000 people in Africa gain access to financial services. Before Smile, I was the co-founder & CTO of [Arthena](https://arthena.com) and a co-founder of [Matroid](https://matroid.com). In my spare time, I invest in people and ideas through a [small venture fund](https://skepticalinvestments.biz). I am particularly interested in projects with high social impact. If you think I can be helpful to you or your cause and would like to meet, please feel free to get in touch.
@@ -29,7 +28,7 @@ I am the VP of Engineering at Smile Identity, where I work on tools that have he
 
 - 14 - 17, I played a lot of video games. My favorites included Counter Strike Source, Command and Conquer 3, Halo 2, and Age of Empires II.
 
-- At 18, In the summer before college, my friends and I started playing [Muggle Quidditch](https://en.wikipedia.org/wiki/Quidditch_(sport)). We went on to start over 8 teams in the [International Quidditch Association](https://en.wikipedia.org/wiki/International_Quidditch_Association) including the [Buffalo Quidditch Society](https://www.facebook.com/buffaloquidditch/). At our height, we were ranked third in the IQA. Although I don't play anymore, you can still see pictures of me holding a broom while wearing a chess camp t-shirt on facebook.
+- At 18, In the summer before college, my friends and I started playing [Muggle Quidditch](<https://en.wikipedia.org/wiki/Quidditch_(sport)>). We went on to start over 8 teams in the [International Quidditch Association](https://en.wikipedia.org/wiki/International_Quidditch_Association) including the [Buffalo Quidditch Society](https://www.facebook.com/buffaloquidditch/). At our height, we were ranked third in the IQA. Although I don't play anymore, you can still see pictures of me holding a broom while wearing a chess camp t-shirt on facebook.
 
 - At 19, I took my first graduate course and published my first academic paper.
 
@@ -78,7 +77,8 @@ Ask me in person for other stories that I'm afraid to share with the internet.
 - enabling a brighter future.
 - doing better.
 - you not checking the commit history for earlier drafts of this file.
-<!-- 
+<!--
+
 # Websites from people I admire
 
 - [Alex Peysakhovich](http://alexpeys.github.io/)
