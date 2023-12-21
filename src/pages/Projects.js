@@ -56,9 +56,8 @@ const Projects = () => {
         </header>
         {data
           .filter(
-            (project) =>
-              currentCategory === 'All' ||
-              project.category.includes(currentCategory),
+            (project) => currentCategory === 'All'
+              || project.category.includes(currentCategory),
           )
           .map((project) => (
             <Cell data={project} key={project.title} />

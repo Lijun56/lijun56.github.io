@@ -32,8 +32,8 @@ const work = [
     summary: '',
     highlights: [
       'Facilitated data transmission and web request between frontend and Dockerized backend service, contributing to product robustness and efficiency',
-      'Led a team of 5 to design a data visualization website with interactive functionalities using Plotly and Flask,' +
-        " catering to the product's user-friendly interface",
+      'Led a team of 5 to design a data visualization website with interactive functionalities using Plotly and Flask,'
+        + " catering to the product's user-friendly interface",
       'Managed the data compilation of 10,000+ drugs over 80 years, enhancing product data storage efficiency through Docker',
     ],
   },
