@@ -31,26 +31,25 @@ const FitnessRedirect = () => {
     window.location.href = 'https://complex-ladybug-21b.notion.site/Lijun-s-Fitness-Notes-c1bc5eb530624ceb912dbbcdca8776d2';
   }, [navigate]);
 
-  return null; // Render nothing, as we are redirecting
+  return null;
 };
 
 const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Suspense fallback={<Main />}>
       <Routes>
-        <Route path='/' element={<Index />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/stats' element={<Stats />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/resume' element={<Resume />} />
-        <Route path='/gallery' element={<Gallery />} />
-        <Route path='/publication' element={<Publication />} />
-        <Route path='/fitness' element={<FitnessRedirect />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path="/" element={<Index />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/stats" element={<Stats />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/publication" element={<Publication />} />
+        <Route path="/fitness" element={<FitnessRedirect />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
   </BrowserRouter>
 );
-
 
 export default App;
