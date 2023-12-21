@@ -14,8 +14,10 @@ const Projects = () => (
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2><Link to="/Research">Research</Link></h2>
-          <p>A selection of projects that I&apos;m not too ashamed of</p>
+          <h2><Link to="/Research">Publications</Link></h2>
+          <a href="https://scholar.google.com/citations?user=2Dl5LowAAAAJ&hl=en&oi=sra" target="_blank" rel="noopener noreferrer">
+            Google Scholar Profile
+          </a>
         </div>
       </header>
       {data.map((project) => (

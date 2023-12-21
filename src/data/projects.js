@@ -2,6 +2,7 @@
 const data = [
   {
     title: 'OpenSea for NFT',
+    category: ['VRdevelopment', 'SDE', 'MLS'],
     subtitle: ' decentralized platform for NFT create, buy and sell',
     link: 'https://github.com/Lijun56/OpenSea_for_NFT',
     image: '/images/projects/OpenSeaNFT.jpg',
@@ -17,6 +18,7 @@ const data = [
   },
   {
     title: 'GPT_School',
+    category: ['VRdevelopment'],
     subtitle: 'a Virtual Reality (VR) multiplayer environment that allows users to study and interact in a virtual school',
     link: 'https://github.com/Lijun56/GPT_School',
     image: '/images/projects/roleplay.png',
@@ -32,4 +34,9 @@ const data = [
 
 ];
 
+// const categories = [
+//   ...new Set(data.flatMap(({ category }) => category)),
+// ].sort().map((category) => ({
+//   name: category,
+// }));
 export default data;

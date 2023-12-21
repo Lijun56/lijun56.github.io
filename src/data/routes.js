@@ -4,25 +4,30 @@ const routes = [
     label: 'Lijun Zhu',
     path: '/',
   },
-  {
-    label: 'About',
-    path: '/about',
-  },
+  // {
+  //   label: 'About',
+  //   path: '/about',
+  // },
   {
     label: 'Resume',
     path: '/resume',
   },
   {
+    label: 'Publication',
+    path: '/publication',
+  },
+  {
     label: 'Projects',
     path: '/projects',
   },
-  {
-    label: 'Research',
-    path: '/Research',
-  },
+
   {
     label: 'Gallery',
     path: '/gallery',
+  },
+  {
+    label: 'Fitness',
+    path: '/fitness',
   },
   {
     label: 'Stats',
