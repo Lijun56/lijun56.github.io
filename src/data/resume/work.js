@@ -19,8 +19,8 @@ const work = [
     startDate: '2022-06-01',
     summary: '',
     highlights: [
-      'Developed a MR(mixed reality) application for human pose detection, utilizing ARkit and Yolo item segmentation.',
-      'Developed a scalable website application for 300 students, promoting microcontroller programming education and catering to user requirements',
+      'Crafted a VR school empowered with GPT4 Model, elevating educational experiences by giving VR lessons.',
+      'Designed a scalable website application, promoting microcontroller programming education and catering to user requirements',
     ],
   },
   {
@@ -35,6 +35,18 @@ const work = [
       'Led a team of 5 to design a data visualization website with interactive functionalities using Plotly and Flask,'
         + " catering to the product's user-friendly interface",
       'Managed the data compilation of 10,000+ drugs over 80 years, enhancing product data storage efficiency through Docker',
+    ],
+  },
+  {
+    name: 'Brose Group',
+    position: 'Software Developer Intern',
+    url: 'https://www.brose.com/de-en/',
+    startDate: '2020-12-01',
+    endDate: '2021-06-01',
+    summary: '',
+    highlights: [
+      'Developed controlling system of car components with C++, emphasizing embedded applications for automotive systems',
+      "Designed a product that was exhibited at Brose's headquarter and subsequently integrated into next-generation car components for over 3 years.",
     ],
   },
 ];

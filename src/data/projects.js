@@ -2,7 +2,7 @@
 const data = [
   {
     title: 'OpenSea for NFT',
-    category: ['VRdevelopment', 'SDE', 'MLS'],
+    category: ['SDE'],
     subtitle: ' decentralized platform for NFT create, buy and sell',
     link: 'https://github.com/Lijun56/OpenSea_for_NFT',
     image: '/images/projects/OpenSeaNFT.jpg',

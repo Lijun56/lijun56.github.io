@@ -12,9 +12,9 @@ const courses = [
     university: 'Purdue',
   },
   {
-    title: 'Software Engineering Tools',
-    number: 'ECE 495',
-    link: '',
+    title: 'Software Engineering',
+    number: 'ECE 49595',
+    link: 'https://engineering.purdue.edu/ECE/Academics/Undergraduates/UGO/CourseInfo/courseInfo?courseid=783&show=true&type=undergrad',
     university: 'Purdue',
   },
   {
@@ -24,9 +24,9 @@ const courses = [
     university: 'Purdue',
   },
   {
-    title: 'Data Management',
-    number: 'ECE 56200',
-    link: '',
+    title: 'Aritifical intelligence',
+    number: 'ECE 57000',
+    link: 'https://engineering.purdue.edu/ECE/Academics/Graduates/Undergraduates/UGO/CourseInfo/courseInfo?courseid=71&show=true&type=grad',
     university: 'Purdue',
   },
   {

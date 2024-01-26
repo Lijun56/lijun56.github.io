@@ -1,7 +1,7 @@
 const skills = [
   {
     title: 'Javascript',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
@@ -11,37 +11,37 @@ const skills = [
   },
   {
     title: 'React',
-    competency: 2,
+    competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Next.JS',
-    competency: 3,
+    competency: 5,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Bash',
-    competency: 2,
+    competency: 4,
     category: ['Tools', 'Languages'],
   },
   {
     title: 'Amazon Web Services',
-    competency: 4,
+    competency: 5,
     category: ['Web Development', 'Tools'],
   },
   {
     title: 'Heroku',
-    competency: 2,
+    competency: 4,
     category: ['Web Development', 'Tools'],
   },
   {
     title: 'MongoDB',
-    competency: 3,
+    competency: 5,
     category: ['Web Development', 'Databases'],
   },
   {
     title: 'ElasticSearch',
-    competency: 2,
+    competency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
@@ -51,7 +51,7 @@ const skills = [
   },
   {
     title: 'Redis',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Databases'],
   },
   {
@@ -61,52 +61,52 @@ const skills = [
   },
   {
     title: 'Express.JS',
-    competency: 2,
+    competency: 3,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'D3',
-    competency: 2,
+    competency: 3,
     category: ['Web Development', 'Javascript'],
   },
   {
     title: 'Flask',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Python'],
   },
   {
     title: 'FastAPI',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Python'],
   },
   {
     title: 'Git/Mercurial',
-    competency: 3,
+    competency: 5,
     category: ['Tools'],
   },
   {
     title: 'Kubernetes',
-    competency: 2,
+    competency: 4,
     category: ['Tools', 'Data Engineering'],
   },
   {
     title: 'Google Cloud Compute',
-    competency: 2,
+    competency: 4,
     category: ['Tools', 'Web Development'],
   },
   {
     title: 'AWS',
-    competency: 3,
+    competency: 5,
     category: ['Tools', 'Web Development'],
   },
   {
     title: 'Docker',
-    competency: 3,
+    competency: 4,
     category: ['Tools', 'Data Engineering'],
   },
   {
     title: 'AWS Lambda',
-    competency: 3,
+    competency: 4,
     category: ['Tools', 'Web Development'],
   },
   {
@@ -116,7 +116,7 @@ const skills = [
   },
   {
     title: 'Numba',
-    competency: 2,
+    competency: 3,
     category: ['Data Science', 'Data Engineering', 'Python'],
   },
   {
@@ -131,17 +131,17 @@ const skills = [
   },
   {
     title: 'Jupyter',
-    competency: 3,
+    competency: 4,
     category: ['Data Science', 'Python'],
   },
   {
     title: 'Typescript',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Languages', 'Javascript'],
   },
   {
     title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
+    competency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
@@ -151,7 +151,7 @@ const skills = [
   },
   {
     title: 'Ruby',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
@@ -161,22 +161,22 @@ const skills = [
   },
   {
     title: 'C++',
-    competency: 1,
+    competency: 5,
     category: ['Languages'],
   },
   {
     title: 'Julia',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
     title: 'MATLAB',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
     title: 'R',
-    competency: 2,
+    competency: 3,
     category: ['Languages'],
   },
   {
@@ -186,17 +186,17 @@ const skills = [
   },
   {
     title: 'GraphQL',
-    competency: 2,
+    competency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
     title: 'Pandas',
-    competency: 5,
+    competency: 4,
     category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
     title: 'Matplotlib',
-    competency: 3,
+    competency: 5,
     category: ['Data Engineering', 'ML Engineering', 'Python'],
   },
   {
@@ -206,7 +206,7 @@ const skills = [
   },
   {
     title: 'Spark',
-    competency: 2,
+    competency: 4,
     category: ['Data Engineering', 'ML Engineering'],
   },
   {
@@ -221,7 +221,7 @@ const skills = [
   },
   {
     title: 'Pylint',
-    competency: 4,
+    competency: 3,
     category: ['Data Engineering', 'Python'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));

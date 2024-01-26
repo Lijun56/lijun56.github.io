@@ -20,12 +20,12 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'https://space.bilibili.com/621731855',
+    link: 'https://space.bilibili.com/xxxxxxx',
     label: 'Bilibili',
     icon: faBilibili,
   },
   {
-    link: 'https://www.instagram.com/real_lijun_zhu/',
+    link: 'https://www.instagram.com/lijunzhu001/',
     label: 'Instagram',
     icon: faInstagram,
   },
