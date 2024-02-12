@@ -1,4 +1,4 @@
-import React, { Suspense, lazy, useEffect } from 'react';
+import React, { Suspense, lazy } from 'react';
 import {
   BrowserRouter,
   Routes,
@@ -20,14 +20,7 @@ const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const Publication = lazy(() => import('./pages/Research'));
-
-const FitnessRedirect = () => {
-  useEffect(() => {
-    // Redirect to the external URL
-    window.location.href = 'https://fitness-coach.pages.dev/';
-  }, []);
-  return null; // Render nothing, as we are redirecting
-};
+const Fitness = lazy(() => import('./pages/Fitness'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -40,7 +33,7 @@ const App = () => (
         <Route path="/resume" element={<Resume />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/publication" element={<Publication />} />
-        <Route path="/fitness" element={<FitnessRedirect />} />
+        <Route path="/fitness" element={<Fitness />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
