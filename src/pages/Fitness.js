@@ -18,7 +18,7 @@ const Index = () => (
           </h2>
           <p>
             Lijun&apos;s Fitness Notes, please click{' '}
-            <a href="https://fitness-coach.pages.dev/">here</a>.
+            <a href="https://complex-ladybug-21b.notion.site/Lijun-s-Fitness-Notes-c1bc5eb530624ceb912dbbcdca8776d2">here</a>.
           </p>
         </div>
       </header>
