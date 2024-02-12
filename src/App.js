@@ -24,12 +24,10 @@ const Publication = lazy(() => import('./pages/Research'));
 
 const FitnessRedirect = () => {
   const navigate = useNavigate();
-
   useEffect(() => {
     // Redirect to the external URL
-    window.location.href = 'https://fitness-coach.pages.dev/';
+    window.location.href = "https://fitness-coach.pages.dev/";
   }, [navigate]);
-
   return null; // Render nothing, as we are redirecting
 };
 
