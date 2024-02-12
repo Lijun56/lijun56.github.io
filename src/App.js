@@ -1,5 +1,10 @@
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React, { Suspense, lazy, useEffect } from 'react';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  useNavigate,
+} from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
@@ -16,7 +21,17 @@ const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const Publication = lazy(() => import('./pages/Research'));
-const Fitness = lazy(() => import('./pages/Fitness'));
+
+const FitnessRedirect = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect to the external URL
+    window.location.href = 'https://fitness-coach.pages.dev/';
+  }, [navigate]);
+
+  return null; // Render nothing, as we are redirecting
+};
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -29,7 +44,7 @@ const App = () => (
         <Route path="/resume" element={<Resume />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/publication" element={<Publication />} />
-        <Route path="/fitness" element={<Fitness />} />
+        <Route path="/fitness" element={<FitnessRedirect />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
