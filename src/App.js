@@ -3,7 +3,6 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  useNavigate,
 } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
@@ -23,11 +22,10 @@ const Gallery = lazy(() => import('./pages/Gallery'));
 const Publication = lazy(() => import('./pages/Research'));
 
 const FitnessRedirect = () => {
-  const navigate = useNavigate();
   useEffect(() => {
     // Redirect to the external URL
     window.location.href = 'https://fitness-coach.pages.dev/';
-  }, [navigate]);
+  }, []);
   return null; // Render nothing, as we are redirecting
 };
 
