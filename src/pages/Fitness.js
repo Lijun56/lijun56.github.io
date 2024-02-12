@@ -1,29 +1,12 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
-import Main from '../layouts/Main';
+const FitnessRedirect = () => {
+  useEffect(() => {
+    // Redirect to the external URL immediately when the component mounts
+    window.location.href = 'https://fitness-coach.pages.dev';
+  }, []); // Empty dependency array to ensure this runs once on mount
 
-const Index = () => (
-  <Main
-    description={
-      "Lijun Zhu's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
-    }
-  >
-    <article className="post" id="index">
-      <header>
-        <div className="title">
-          <h2>
-            <Link to="/fitness">Fitness</Link>
-          </h2>
-          <p>
-            Lijun&apos;s Fitness Notes, please click{' '}
-            <a href="https://fitness-coach.pages.dev">here</a>.
-          </p>
-        </div>
-      </header>
-    </article>
-  </Main>
-);
+  return null; // This component does not render anything
+};
 
-export default Index;
+export default FitnessRedirect;
