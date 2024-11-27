@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
-
 import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 
@@ -14,22 +13,18 @@ const Projects = () => {
   const filterByCategory = (cat) => {
     setCategory(cat);
   };
-
-  const buttonStyle = {
+  const categorystyle = {
     display: 'flex',
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
-    borderRadius: '20px',
     margin: '20px',
-    padding: '5px 10px',
   };
-
-  const containerStyle = {
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-  };
+  const filteredProjects = useMemo(() => {
+    if (currentCategory === 'All') {
+      return data;
+    }
+    return data.filter((project) => project.category.includes(currentCategory));
+  }, [currentCategory]);
 
   return (
     <Main title="Projects" description="Learn about Lijun Zhu's projects.">
@@ -40,12 +35,12 @@ const Projects = () => {
               <Link to="/projects">Projects</Link>
             </h2>
             {/* <p>A selection of projects that I&apos;m not too ashamed of</p> */}
-            <div style={containerStyle}>
+            <div style={categorystyle}>
               {categories.map((cat) => (
                 <button
                   type="button"
+                  className="button"
                   key={cat}
-                  style={buttonStyle}
                   onClick={() => filterByCategory(cat)}
                 >
                   {cat}
@@ -54,14 +49,11 @@ const Projects = () => {
             </div>
           </div>
         </header>
-        {data
-          .filter(
-            (project) => currentCategory === 'All'
-              || project.category.includes(currentCategory),
-          )
-          .map((project) => (
+        <div className="projects-list">
+          {filteredProjects.map((project) => (
             <Cell data={project} key={project.title} />
           ))}
+        </div>
       </article>
     </Main>
   );
