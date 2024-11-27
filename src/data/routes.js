@@ -13,26 +13,25 @@ const routes = [
     path: '/resume',
   },
   {
+    label: 'Projects',
+    path: '/projects',
+  },
+  {
     label: 'Publication',
     path: '/publication',
   },
   {
-    label: 'Projects',
-    path: '/projects',
-  },
-
-  {
     label: 'Gallery',
     path: '/gallery',
   },
-  {
-    label: 'Fitness',
-    path: '/fitness',
-  },
-  {
-    label: 'Stats',
-    path: '/stats',
-  },
+  // {
+  //   label: 'Fitness',
+  //   path: '/fitness',
+  // },
+  // {
+  //   label: 'Stats',
+  //   path: '/stats',
+  // },
   {
     label: 'Contact',
     path: '/contact',

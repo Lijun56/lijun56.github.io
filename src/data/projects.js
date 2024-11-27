@@ -16,6 +16,19 @@ const data = [
       + ' and buy other NFTs available in the market',
   },
   {
+    title: 'bright-bolt e-commerce website',
+    category: ['SDE'],
+    subtitle:
+      'a Virtual Reality (VR) multiplayer environment that allows users to study and interact in a virtual school',
+    link: 'https://shanghai-bright-bolt-trading-co-ltd.vercel.app/',
+    image: '/images/projects/ecommerce.png',
+    date: '2023-7-1',
+    desc:
+      ' Ecommerce company that sells a variety of products, including electronics,'
+      + ' clothing, and accessories. The website is designed to be user-friendly and',
+
+  },
+  {
     title: 'GPT_School',
     category: ['VRdevelopment'],
     subtitle:
