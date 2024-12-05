@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import data from '../data/researchs';
+import data from '../data/publications';
 
 const Projects = () => (
   <Main title="Research" description="Learn about Lijun Zhu's projects.">

@@ -6,22 +6,24 @@ import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 
 const Projects = () => {
-  const [currentCategory, setCategory] = useState('All');
+  const [currentCategory, setCategory] = useState('Featured');
 
-  const categories = ['All', 'VRdevelopment', 'SDE', 'MLS'];
+  const categories = ['Featured', 'MLE', 'SDE', 'DS', 'VR'];
 
   const filterByCategory = (cat) => {
     setCategory(cat);
   };
+
   const categorystyle = {
     display: 'flex',
     justifyContent: 'space-evenly',
     alignItems: 'center',
     margin: '20px',
   };
+
   const filteredProjects = useMemo(() => {
-    if (currentCategory === 'All') {
-      return data;
+    if (currentCategory === 'Featured') {
+      return data.filter((project) => project.feature);
     }
     return data.filter((project) => project.category.includes(currentCategory));
   }, [currentCategory]);
@@ -34,7 +36,6 @@ const Projects = () => {
             <h2>
               <Link to="/projects">Projects</Link>
             </h2>
-            {/* <p>A selection of projects that I&apos;m not too ashamed of</p> */}
             <div style={categorystyle}>
               {categories.map((cat) => (
                 <button

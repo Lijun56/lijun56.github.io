@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+const { PUBLIC_URL } = process.env;
 
 const SideBar = () => (
   <section id="sidebar">
@@ -14,20 +14,30 @@ const SideBar = () => (
       <header>
         <h2>Lijun Zhu</h2>
         <p>
-          <a href="mailto:zhu944@purdue.edu">zhu944@purdue.edu</a>
+          <a href="mailto:zlijun.engr@gmail.com">zlijun.engr@gmail.com</a>
         </p>
       </header>
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
+      <img
+        src={`${PUBLIC_URL}/images/UI_favi/favicon.ico`}
+        alt="Purdue Logo"
+      />
+      <img
+        src={`${PUBLIC_URL}/images/purude_favi/favicon.ico`}
+        alt="Purdue Logo"
+        style={{ width: '55px', height: '55px' }}
+      />
+      {/* <h2>About</h2> */}
       <p>
-        Hi, I&apos;m Lijun(Stephen), a software engineer and amateur bodybuilding
-        athlete. I graduated from{' '}
-        <a href="https://purdue.edu/">Purdue University </a>
-        with a degree in Computer Engineering. I am passionate about software
-        development, specializing in VR application development and large-scale
-        database management.
+        Hi, My name is Stephen (Lijun), and I&apos;m currently pursuing my Master&apos;s in
+        Computer Science
+        <a href="https://siebelschool.illinois.edu/"> (MCS) at the University of Illinois at Urbana-Champaign </a>
+        I earned my Bachelor&apos;s degree in <a href="https://engineering.purdue.edu/ECE"> Computer Engineering (BSCompE) at Purdue University </a>
+        <br />
+        I&apos;m passionate about machine learning and software development, and I&apos;ve
+        built a solid foundation in these areas through both my studies and practical experience.
       </p>
       <ul className="actions">
         <li>

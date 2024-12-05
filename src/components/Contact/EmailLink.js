@@ -41,7 +41,7 @@ const useInterval = (callback, delay) => {
       }, delay);
       return () => clearInterval(id);
     }
-    return () => {}; // pass linter
+    return () => { }; // pass linter
   }, [delay]);
 };
 
@@ -85,9 +85,9 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => idx < messages.length && setIsActive(true)}
     >
-      <a href="mailto:zhu944@purdue.edu">
-        <span>zhu944</span>
-        <span>@purdue.edu</span>
+      <a href="mailto:zlijun.engr@gmail.com ">
+        <span>zlijun.engr</span>
+        <span>@gmail.com</span>
       </a>
     </div>
   );

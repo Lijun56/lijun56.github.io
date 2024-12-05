@@ -3,6 +3,7 @@ const data = [
   {
     title: 'OpenSea for NFT',
     category: ['SDE'],
+    feature: false,
     subtitle: ' decentralized platform for NFT create, buy and sell',
     link: 'https://github.com/Lijun56/OpenSea_for_NFT',
     image: '/images/projects/OpenSeaNFT.jpg',
@@ -18,36 +19,33 @@ const data = [
   {
     title: 'bright-bolt e-commerce website',
     category: ['SDE'],
+    feature: true,
     subtitle:
       'a Virtual Reality (VR) multiplayer environment that allows users to study and interact in a virtual school',
     link: 'https://shanghai-bright-bolt-trading-co-ltd.vercel.app/',
     image: '/images/projects/ecommerce.png',
-    date: '2023-7-1',
+    date: '2024-7-1',
     desc:
       ' Ecommerce company that sells a variety of products, including electronics,'
       + ' clothing, and accessories. The website is designed to be user-friendly and',
 
   },
   {
-    title: 'GPT_School',
-    category: ['VRdevelopment'],
+    title: 'ClassMeta',
+    category: ['VR'],
+    feature: true,
     subtitle:
       'a Virtual Reality (VR) multiplayer environment that allows users to study and interact in a virtual school',
-    link: 'https://github.com/Lijun56/GPT_School',
-    image: '/images/projects/roleplay.png',
-    date: '2023-7-1',
+    link: 'https://www.youtube.com/watch?v=sBSxCmjCLP4',
+    image: '/images/projects/ClassMeta_project.png',
+    date: '2023-10-1',
     desc:
-      ' Welcome to the GPT_School. This project aims to revolutionize online learning'
-      + ' by providing a Virtual Reality (VR) multiplayer environment that allows users'
-      + ' to study and interact in a virtual school. With extensive variety of scenes like'
-      + ' playgrounds and outdoor spaces, users can fully immerse themselves into the learning'
-      + ' experience.',
+      'an AI- powered virtual reality agent designed to enhance classroom participation.'
+      + 'Using GPT - 4, real - time speech - to - text, and generative voice AI, '
+      + 'the agent interacts with instructors and students to encourage engagement, '
+      + 'facilitate discussions, and improve learning outcomes.It models active student behaviors, asks relevant questions, '
+      + 'and even intervenes when discussions lag, fostering a more interactive and productive virtual learning environment.',
   },
 ];
 
-// const categories = [
-//   ...new Set(data.flatMap(({ category }) => category)),
-// ].sort().map((category) => ({
-//   name: category,
-// }));
 export default data;
