@@ -26,8 +26,7 @@ const data = [
     image: '/images/projects/ecommerce.png',
     date: '2024-7-1',
     desc:
-      ' Ecommerce company that sells a variety of products, including electronics,'
-      + ' clothing, and accessories. The website is designed to be user-friendly and',
+      'https://shanghai-bright-bolt-trading-co-ltd.vercel.app/',
 
   },
   {
@@ -39,12 +38,20 @@ const data = [
     link: 'https://www.youtube.com/watch?v=sBSxCmjCLP4',
     image: '/images/projects/ClassMeta_project.png',
     date: '2023-10-1',
+
+  },
+  {
+    title: 'Harry',
+    category: ['SDE'],
+    feature: true,
+    subtitle:
+      'a Virtual Reality (VR) multiplayer environment that allows users to study and interact in a virtual school',
+    link: 'https://youtube.com/shorts/96F2vwIsC6A',
+    image: '/images/projects/Harry.jpg',
+    date: '2023-10-1',
     desc:
-      'an AI- powered virtual reality agent designed to enhance classroom participation.'
-      + 'Using GPT - 4, real - time speech - to - text, and generative voice AI, '
-      + 'the agent interacts with instructors and students to encourage engagement, '
-      + 'facilitate discussions, and improve learning outcomes.It models active student behaviors, asks relevant questions, '
-      + 'and even intervenes when discussions lag, fostering a more interactive and productive virtual learning environment.',
+      'https://harry-tau.vercel.app/',
+
   },
 ];
 

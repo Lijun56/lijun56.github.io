@@ -13,14 +13,28 @@
  */
 const work = [
   {
-    name: 'C Deign lab',
+    name: 'Ziro(C Design Lab)',
     position: 'Software Developer and Research Assistant',
     url: 'https://engineering.purdue.edu/cdesign/wp/',
     startDate: '2022-06-01',
+    endDate: '2024-05-01',
     summary: '',
     highlights: [
-      'Crafted a VR school empowered with GPT4 Model, elevating educational experiences by giving VR lessons.',
-      'Designed a scalable website application, promoting microcontroller programming education and catering to user requirements',
+      'Developed a VR school using Unity for Oculus, integrating ChatGPT to provide immersive VR lessons',
+      'Designed a scalable website application for 300 students, promoting micro-controller programming education',
+    ],
+  },
+  {
+    name: 'Makusafe',
+    position: 'Data Scientist Intern',
+    url: 'https://engineering.purdue.edu/VIP/teams/LyoHUB',
+    startDate: '2022-01-01',
+    endDate: '2022-05-01',
+    summary: '',
+    highlights: [
+      'Led a neural network team using TensorFlow and PyTorch, preprocessing large-scale sensor data with normalization and feature selection techniques',
+      'Built a fall-risk prediction model using worker wearables, achieving 92% accuracy through iterative training with cross - validation on a dataset of 1 million samples.',
+      'Managed GitHub workflows to improve code reviews and version control, facilitating project delivery',
     ],
   },
   {
@@ -33,7 +47,7 @@ const work = [
     highlights: [
       'Facilitated data transmission and web request between frontend and Dockerized backend service, contributing to product robustness and efficiency',
       'Led a team of 5 to design a data visualization website with interactive functionalities using Plotly and Flask,'
-        + " catering to the product's user-friendly interface",
+      + " catering to the product's user-friendly interface",
       'Managed the data compilation of 10,000+ drugs over 80 years, enhancing product data storage efficiency through Docker',
     ],
   },
@@ -45,8 +59,8 @@ const work = [
     endDate: '2021-06-01',
     summary: '',
     highlights: [
-      'Developed controlling system of car components with C++, emphasizing embedded applications for automotive systems',
-      "Designed a product that was exhibited at Brose's headquarter and subsequently integrated into next-generation car components for over 3 years.",
+      'Designed an HCI (human-machine communication) system using Arduino and C++ to control car components',
+      'Earned the Innovative Engineering Excellence Award at Brose innovation department.',
     ],
   },
 ];

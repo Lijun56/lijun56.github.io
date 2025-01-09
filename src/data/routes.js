@@ -20,10 +20,10 @@ const routes = [
     label: 'Publication',
     path: '/publication',
   },
-  {
-    label: 'Gallery',
-    path: '/gallery',
-  },
+  // {
+  //   label: 'Gallery',
+  //   path: '/gallery',
+  // },
   // {
   //   label: 'Fitness',
   //   path: '/fitness',
