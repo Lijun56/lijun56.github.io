@@ -35,6 +35,12 @@ const courses = [
     link: 'https://engineering.purdue.edu/ece404/',
     university: 'Purdue',
   },
+  {
+    title: 'Applied Machine Learning',
+    number: 'CS 441',
+    link: 'https://engineering.purdue.edu/ece404/',
+    university: 'UIUC',
+  },
 ];
 
 export default courses;
