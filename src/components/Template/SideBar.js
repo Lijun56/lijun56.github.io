@@ -3,13 +3,15 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-const { PUBLIC_URL } = process.env;
+// const { PUBLIC_URL } = process.env;
 
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        {/* <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+         */}
+        <img src="/images/me.jpg" alt="" />
       </Link>
       <header>
         <h2>Stephen(Lijun) Zhu</h2>
@@ -21,11 +23,13 @@ const SideBar = () => (
 
     <section className="blurb">
       <img
-        src={`${PUBLIC_URL}/images/UI_favi/favicon.ico`}
+        // src={`${PUBLIC_URL}/images/UI_favi/favicon.ico`}
+        src="/images/UI_favi/favicon.ico"
         alt="Purdue Logo"
       />
       <img
-        src={`${PUBLIC_URL}/images/purude_favi/favicon.ico`}
+        // src={`${PUBLIC_URL}/images/purude_favi/favicon.ico`}
+        src="images/purude_favi/favicon.ico"
         alt="Purdue Logo"
         style={{ width: '55px', height: '55px' }}
       />
